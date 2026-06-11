@@ -13,14 +13,13 @@ import sys
 
 import uvicorn
 
-# Add backend directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from app.config import load_backend_env
 
 load_backend_env()
 
-# Important: expose FastAPI app for Uvicorn/Render
+# Expose FastAPI app for Render/Uvicorn
 from app.main import app
 
 
@@ -35,6 +34,6 @@ if __name__ == "__main__":
         "main:app",
         host="0.0.0.0",
         port=port,
-        reload=True,
+        reload=False,
         log_level="info",
     )
