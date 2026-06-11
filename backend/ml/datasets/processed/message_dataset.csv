@@ -1,0 +1,61 @@
+text,label,source
+"Hey, I just shared a blog post about React best practices.",Safe,synthetic_safe
+"Let us catch up tomorrow for the project discussion.",Safe,synthetic_safe
+"Here is the meeting agenda for today's session.",Safe,synthetic_safe
+"Thanks for connecting. I liked your recent post.",Safe,synthetic_safe
+"Can you send me the assignment document when you are free?",Safe,synthetic_safe
+"Congratulations on your achievement. Well deserved.",Safe,synthetic_safe
+"I have uploaded the notes for tomorrow's class.",Safe,synthetic_safe
+"Please check the event schedule on the official website.",Safe,synthetic_safe
+"This is a reminder for our group presentation.",Safe,synthetic_safe
+"Your article was helpful. Thank you for sharing.",Safe,synthetic_safe
+"Let me know when you are available for a call.",Safe,synthetic_safe
+"Please review the attached project summary.",Safe,synthetic_safe
+"The workshop starts at 10 AM tomorrow.",Safe,synthetic_safe
+"I saw your portfolio. Nice work.",Safe,synthetic_safe
+"Here is the GitHub repository for the project.",Safe,synthetic_safe
+"Can you send the meeting link?",Safe,synthetic_safe
+"Please confirm your availability for tomorrow.",Safe,synthetic_safe
+"The class has been shifted to the afternoon.",Safe,synthetic_safe
+"I will share the project files by evening.",Safe,synthetic_safe
+"Your design looks good. Minor edits are needed.",Safe,synthetic_safe
+"Limited time opportunity. Contact quickly for details.",Suspicious,synthetic_suspicious
+"You have been selected for a special offer. Reply soon.",Suspicious,synthetic_suspicious
+"Congratulations, you are shortlisted. Small registration fee required.",Suspicious,synthetic_suspicious
+"We can help grow your account fast. DM for paid promotion.",Suspicious,synthetic_suspicious
+"Claim your reward before it expires.",Suspicious,synthetic_suspicious
+"Your profile is eligible for a special investment opportunity.",Suspicious,synthetic_suspicious
+"We are offering guaranteed growth for selected users.",Suspicious,synthetic_suspicious
+"Urgent update needed for your profile information.",Suspicious,synthetic_suspicious
+"Verify your details to continue receiving benefits.",Suspicious,synthetic_suspicious
+"Click the link to check your eligibility.",Suspicious,synthetic_suspicious
+"This offer is only valid for a few hours.",Suspicious,synthetic_suspicious
+"Send your details to complete verification.",Suspicious,synthetic_suspicious
+"You have won a giveaway. Contact us now.",Suspicious,synthetic_suspicious
+"Remote job available with high salary. Processing required.",Suspicious,synthetic_suspicious
+"Your account has been noticed for suspicious activity.",Suspicious,synthetic_suspicious
+"Your profile has been selected for paid collaboration. Send details now.",Suspicious,synthetic_suspicious
+"Guaranteed followers available. Payment required before delivery.",Suspicious,synthetic_suspicious
+"Special reward available today only. Click to claim.",Suspicious,synthetic_suspicious
+"Investment slot available for selected users only.",Suspicious,synthetic_suspicious
+"Please update your account details immediately.",Suspicious,synthetic_suspicious
+"Send OTP now to verify your account or it will be disabled.",Scam,synthetic_scam
+"Your Instagram account will be suspended. Login here to verify.",Scam,synthetic_scam
+"Send Bitcoin and we will double your money in 24 hours.",Scam,synthetic_scam
+"Pay the processing fee to receive your job offer letter.",Scam,synthetic_scam
+"Share your password to recover your account immediately.",Scam,synthetic_scam
+"Click this fake support link to avoid account deletion.",Scam,synthetic_scam
+"Send gift cards to unlock your reward.",Scam,synthetic_scam
+"Deposit crypto now for guaranteed profit.",Scam,synthetic_scam
+"Your bank account is blocked. Enter login details urgently.",Scam,synthetic_scam
+"Verify your wallet seed phrase to claim airdrop.",Scam,synthetic_scam
+"Your account has suspicious activity. Submit OTP immediately.",Scam,synthetic_scam
+"Official support team here. Share your login code now.",Scam,synthetic_scam
+"Pay advance fee to release your prize money.",Scam,synthetic_scam
+"Send money urgently to avoid legal action.",Scam,synthetic_scam
+"Recover your account by entering password on this link.",Scam,synthetic_scam
+"Your account will be permanently deleted unless you login now.",Scam,synthetic_scam
+"Meta support requires your password to verify ownership.",Scam,synthetic_scam
+"Send your UPI PIN to receive the reward amount.",Scam,synthetic_scam
+"Pay registration fee first to confirm your fake job selection.",Scam,synthetic_scam
+"Click this verification link and enter OTP to unlock your account.",Scam,synthetic_scam
