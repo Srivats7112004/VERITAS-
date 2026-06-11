@@ -1,6 +1,7 @@
 import axios from 'axios'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
+const API_BASE_URL =
+  import.meta.env.VITE_API_URL || 'http://localhost:8000/api'
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
@@ -9,46 +10,37 @@ const apiClient = axios.create({
   },
 })
 
-/**
- * Analyze user input for risk assessment
- */
 export const analyzeIdentity = (data) => {
   return apiClient.post('/analyze', data)
 }
 
-/**
- * Detect twin/impersonation identities
- */
 export const detectTwin = (data) => {
   return apiClient.post('/twin-detection', data)
 }
 
-/**
- * Get simulation scenarios
- */
 export const getSimulationScenarios = () => {
   return apiClient.get('/simulations')
 }
 
-/**
- * Submit simulation response
- */
+// Alias for older component imports
+export const getSimulations = () => {
+  return apiClient.get('/simulations')
+}
+
 export const submitSimulationResponse = (scenarioId, response) => {
   return apiClient.post(`/simulations/${scenarioId}/response`, { response })
 }
 
-/**
- * Get dashboard statistics
- */
 export const getDashboardStats = () => {
   return apiClient.get('/dashboard/stats')
 }
 
-/**
- * Get deception graph data
- */
 export const getDeceptionGraph = () => {
   return apiClient.get('/deception-graph')
+}
+
+export const healthCheck = () => {
+  return apiClient.get('/health')
 }
 
 export default apiClient
